@@ -1,0 +1,86 @@
+extends common/layout
+
+block content 
+   .container-main
+    .container-dreams
+      .title-dreams How Dreamshare works?
+      .box-dreams
+        .box-dreams1
+          .box-dreams1__bootom STEP 1
+          .box-dreams1__title Sed leo enim, condimentum
+          .box-dreams1__text
+            | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec
+            | rhoncus a leo sit amet facilisis.
+        .box-dreams2
+          .box-dreams2__bootom STEP 2
+          .box-dreams2__title Morbi velit risus
+          .box-dreams2__text
+            | Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet
+            | porttitor est.
+        .box-dreams3
+          .box-dreams3__bootom STEP 3
+          .box-dreams3__title Sed leo enim, condimentum
+          .box-dreams3__text
+            | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec
+            | rhoncus a leo sit amet facilisis.
+    .container-partner
+      .title-partner Meet a partner for your best holiday
+      .box-partner
+        .box-cards-partner1
+          .box-cards-partner__img
+            img(src='./img/1Photo.png', alt='')
+          .box-cards-partner__name Bradley Hunter
+          .box-cards-partner__text Based in Chicago. I love playing tennis and loud music.
+        .box-cards-partner2
+          .box-cards-partner__img2
+            img(src='./img/2Bitmap.png', alt='')
+          .box-cards-partner__name2 Marie Bennett
+          .box-cards-partner__text2
+            | Currently living in Colorado. Lover of art, languages and
+            | travelling.
+        .box-cards-partner3
+          .box-cards-partner__img3
+            img.partner(src='./img/3Photo.png', alt='')
+          .box-cards-partner__name3 Diana Wells
+          .box-cards-partner__text3
+            | Living in Athens, Greece. I love black and white classics,
+            | chillout music and green tea.
+        .box-cards-partner4
+          .box-cards-partner__img4
+            img(src='./img/4Photo.png', alt='')
+          .box-cards-partner__name4 Christopher Pierce
+          .box-cards-partner__text4
+            | Star Wars fanatic. I have a persistent enthusiasm to create new
+            | things.
+      .partner-bootom See other partners
+    .container-discover
+      .discover-title Discover holiday activity ideas
+      .box-discover
+        .box-discover-up
+          .bow-discover-up__img
+            .bow-discover-up__title Sports and Activis
+          .bow-discover-up__img2
+            .bow-discover-up__title Wellness and Health
+          .bow-discover-up__img3
+            .bow-discover-up__title
+              | Extreme Sports 
+              br
+              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;and Expeditions
+        .box-discover-center
+          .box-discover-center-left__img
+            .bow-discover-center__title
+              | Gamess
+          .box-discover-center-right__img
+            .bow-discover-center__title Culture and Education
+        .box-discover-down
+          .box-discover-down-left__img
+            .bow-discover-down-left__title Enjomet and Relaxation
+          .box-discover-down-right__img
+            .box-discover-down-right__title
+              | Trevelling
+    .container-polls
+      .container-polls-title Crate your holiday activity
+      .container-polls-text Hi! What are your holiday interests?
+      .container-polls__input
+        input.input-text(type='text', placeholder='Enter your insterests')
+        button.polls-button Search partners
